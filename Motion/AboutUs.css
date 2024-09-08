@@ -1,0 +1,157 @@
+body {
+	font-family: 'Bebas Neue';
+	
+}
+
+#sect1 {
+	background-image: url('images/motion-background.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background-color: rgb(0, 0, 0);
+	color: white;
+}
+
+.nav-left {
+	display: flex;
+	gap: 20px;
+}
+
+.nav-left button {
+	background: none;
+	border: none;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.nav-left button:hover {
+	color: #ddd;
+}
+
+.nav-right {
+	display: flex;
+	gap: 20px;
+}
+
+.nav-right button {
+	background: none;
+	border: none;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.nav-right button:hover {
+	color: #ddd;
+}
+
+.title {
+	flex-grow: 1;
+	font-size: 24px;
+	font-weight: bold;
+  margin-left: 30%;
+}
+
+.title button {
+    background: none;
+	border: none;
+	color: white;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.sub-header {
+	text-align: center;
+	padding: 10px;
+	background-color: rgba(106, 106, 106, 0.8);
+	color: rgb(0, 0, 0);
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.about-us {
+	position: absolute;
+	text-align: right;
+	top:50%;
+	left: 75%;
+	color: #000000;
+}
+.about-us h1, .about-us h2 {
+	margin: 0;
+}
+
+.about-us h1 {
+	font-size: 3rem;
+	color: #000000;
+}
+
+.about-us h2 {
+	font-size: 1.5rem;
+	color: #000000;
+}
+#sect2 {
+	text-align: center;
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+.border {
+	border-top: 2px solid #8d664e;
+	width: 80px;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+.motion-txt {
+	background-color: #000000;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 3rem;
+	border-radius: 5px;
+	margin-left: 4rem;
+	margin-right: 4rem;
+	box-shadow: 0 1px 5px rgba(0,0,0,0,2);
+	width: calc(100% - 300px);
+	margin: auto;
+	margin-bottom: 3rem;
+}
+
+.footer {
+	background-color: #ffffff;
+	padding: 20px;
+	text-align: left;
+}
+
+.footer-icons a {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+.footer-icons img {
+	width: 20px;
+	height: 20px;
+	opacity: 0.8;
+	transition: opacity 0.3s ease;
+}
+
+.footer-icons img:hover {
+	opacity: 1;
+}
